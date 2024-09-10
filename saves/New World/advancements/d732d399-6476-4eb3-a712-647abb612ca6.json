@@ -1,0 +1,137 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-09-09 20:55:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2024-09-09 21:01:35 -0700"
+    },
+    "done": true
+  },
+  "grapplemod:core/rocket_forcefield_combo": {
+    "criteria": {
+      "combining_forces": "2024-09-09 21:01:23 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2024-09-09 21:01:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2024-09-09 21:01:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2024-09-09 21:01:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2024-09-09 21:01:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2024-09-09 21:01:35 -0700"
+    },
+    "done": true
+  },
+  "grapplemod:hidden/unlock_grappling_hook_recipie": {
+    "criteria": {
+      "auto_unlock": "2024-09-09 20:55:47 -0700"
+    },
+    "done": true
+  },
+  "hexcasting:grant_patchi_book": {
+    "criteria": {
+      "tick": "2024-09-09 20:55:46 -0700"
+    },
+    "done": true
+  },
+  "grapplemod:core/long_fall_boots_big_fall": {
+    "criteria": {
+      "fell_far_with_boots": "2024-09-09 21:03:26 -0700"
+    },
+    "done": true
+  },
+  "grapplemod:core/root": {
+    "criteria": {
+      "grappling_hook_acquired": "2024-09-09 20:58:14 -0700"
+    },
+    "done": true
+  },
+  "niftycarts:recipes/supply_cart": {
+    "criteria": {
+      "has_wheel": "2024-09-09 20:55:46 -0700"
+    },
+    "done": true
+  },
+  "niftycarts:recipes/plow": {
+    "criteria": {
+      "has_wheel": "2024-09-09 20:55:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2024-09-09 21:01:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:windswept_hills": "2024-09-09 21:03:55 -0700",
+      "minecraft:bamboo_jungle": "2024-09-09 20:59:32 -0700",
+      "minecraft:sparse_jungle": "2024-09-09 20:58:43 -0700",
+      "minecraft:river": "2024-09-09 20:59:48 -0700",
+      "minecraft:dripstone_caves": "2024-09-09 21:01:46 -0700",
+      "minecraft:swamp": "2024-09-09 21:04:36 -0700",
+      "minecraft:forest": "2024-09-09 21:02:02 -0700",
+      "minecraft:jungle": "2024-09-09 20:55:47 -0700",
+      "minecraft:old_growth_birch_forest": "2024-09-09 20:59:27 -0700"
+    },
+    "done": false
+  },
+  "niftycarts:recipes/hand_cart": {
+    "criteria": {
+      "has_wheel": "2024-09-09 20:55:46 -0700"
+    },
+    "done": true
+  },
+  "grapplemod:core/long_fall_boots": {
+    "criteria": {
+      "wearing_long_fall_boots": "2024-09-09 21:02:36 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2024-09-09 21:01:35 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2024-09-09 21:01:35 -0700"
+    },
+    "done": true
+  },
+  "niftycarts:recipes/animal_cart": {
+    "criteria": {
+      "has_wheel": "2024-09-09 20:55:46 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

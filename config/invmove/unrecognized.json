@@ -1,0 +1,12 @@
+{
+  "allowMovement": {
+    "net.minecraft.class_434": true,
+    "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
+    "smartin.miapi.client.gui.crafting.CraftingScreen": true
+  },
+  "hideBackground": {
+    "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
+    "vazkii.patchouli.client.book.gui.GuiBookCategory": true,
+    "smartin.miapi.client.gui.crafting.CraftingScreen": true
+  }
+}
