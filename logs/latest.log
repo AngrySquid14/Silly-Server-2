@@ -1,5 +1,5 @@
-[17:37:44] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.5
-[17:37:44] [main/INFO]: Loading 119 mods:
+[18:33:18] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.5
+[18:33:19] [main/INFO]: Loading 119 mods:
 	- archery 1.4
 	- architectury 9.2.14
 	- armory 1.9
@@ -100,7 +100,7 @@
 	   \-- serialization_hooks 0.4.99999
 	- invmove 0.8.4
 	- java 17
-	- lithium 0.11.2
+	- jei 15.18.0.79
 	- memoryleakfix 1.1.5
 	- miapi 1.1.31
 	   |-- com_ezylang_evalex 3.2.0
@@ -120,17 +120,16 @@
 	- paucal 0.6.0-pre-118
 	- supplementaries 1.20-2.8.17
 	   \-- mixinsquared 0.1.1
-[17:37:45] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Jackw/AppData/Roaming/ModrinthApp/meta/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[17:37:45] [main/INFO]: Compatibility level set to JAVA_17
-[17:37:45] [main/WARN]: Reference map 'Truly-Modular-archery-archery-common-refmap.json' for archery-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:37:45] [main/WARN]: Reference map 'Truly-Modular-armory-armory-common-refmap.json' for armory-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:37:45] [main/WARN]: Reference map 'Truly-Modular-arsenal-arsenal-common-refmap.json' for arsenal-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:37:45] [main/WARN]: Reference map 'InvMove-mc1.20_fabric-refmap.json' for invmove-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:37:45] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 1 override(s) found
-[17:37:45] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:37:46] [main/INFO]: Loaded configuration file for ModernFix 5.19.4+mc1.20.1: 61 options available, 0 override(s) found
-[17:37:46] [main/INFO]: Applying Nashorn fix
-[17:37:47] [main/ERROR]: The specified mixin 'tech.thatgravyboat.craftify.mixin.CustomPayloadMixin' was not found
+[18:33:19] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Jackw/AppData/Roaming/ModrinthApp/meta/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[18:33:19] [main/INFO]: Compatibility level set to JAVA_17
+[18:33:19] [main/WARN]: Reference map 'Truly-Modular-archery-archery-common-refmap.json' for archery-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:33:19] [main/WARN]: Reference map 'Truly-Modular-armory-armory-common-refmap.json' for armory-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:33:19] [main/WARN]: Reference map 'Truly-Modular-arsenal-arsenal-common-refmap.json' for arsenal-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:33:19] [main/WARN]: Reference map 'InvMove-mc1.20_fabric-refmap.json' for invmove-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:33:19] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:33:19] [main/INFO]: Loaded configuration file for ModernFix 5.19.4+mc1.20.1: 61 options available, 0 override(s) found
+[18:33:19] [main/INFO]: Applying Nashorn fix
+[18:33:19] [main/ERROR]: The specified mixin 'tech.thatgravyboat.craftify.mixin.CustomPayloadMixin' was not found
 org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: The specified mixin 'tech.thatgravyboat.craftify.mixin.CustomPayloadMixin' was not found
 	at org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:864) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
 	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:933) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
@@ -159,114 +158,119 @@ Caused by: java.lang.ClassNotFoundException: The specified mixin 'tech.thatgravy
 	at org.spongepowered.asm.mixin.transformer.MixinInfo.loadMixinClass(MixinInfo.java:1318) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
 	at org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:857) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
 	... 22 more
-[17:37:47] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[17:37:47] [main/WARN]: Error loading class: io/github/apace100/apoli/util/StackPowerUtil (java.lang.ClassNotFoundException: io/github/apace100/apoli/util/StackPowerUtil)
-[17:37:47] [main/WARN]: @Mixin target io.github.apace100.apoli.util.StackPowerUtil was not found miapi-common.mixins.json:ApoliStackPowerMixin from mod miapi
-[17:37:47] [main/WARN]: Error loading class: net/archers/item/misc/AutoFireHook (java.lang.ClassNotFoundException: net/archers/item/misc/AutoFireHook)
-[17:37:47] [main/WARN]: @Mixin target net.archers.item.misc.AutoFireHook was not found miapi-common.mixins.json:ArcheryHookMixin from mod miapi
-[17:37:47] [main/WARN]: Error loading class: net/bettercombat/api/WeaponAttributesHelper (java.lang.ClassNotFoundException: net/bettercombat/api/WeaponAttributesHelper)
-[17:37:47] [main/WARN]: @Mixin target net.bettercombat.api.WeaponAttributesHelper was not found miapi-common.mixins.json:BCWeaponRegistryMixin from mod miapi
-[17:37:48] [main/WARN]: Error loading class: net/raphimc/immediatelyfast/feature/map_atlas_generation/MapAtlasTexture (java.lang.ClassNotFoundException: net/raphimc/immediatelyfast/feature/map_atlas_generation/MapAtlasTexture)
-[17:37:48] [main/INFO]: [MemoryLeakFix] Will be applying 3 memory leak fixes!
-[17:37:48] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [targetEntityLeak, biomeTemperatureLeak, hugeScreenshotLeak]
-[17:37:48] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[17:37:50] [main/INFO]: Mixing MinecraftClientMixin from mixins.craftify.json into net.minecraft.class_310
-[17:37:53] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[17:37:53] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[17:37:53] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[17:37:56] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[17:37:56] [main/INFO]: Vanilla bootstrap took 4659 milliseconds
-[17:37:57] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:37:57] [Render thread/INFO]: Setting user: AngrySquid14
-[17:37:57] [Render thread/INFO]: Bypassed Mojang DFU
-[17:37:58] [Cicada thread 0/INFO]: [do_a_barrel_roll] Why play a flight sim when you have modded Minecraft?
-[17:37:58] [Render thread/INFO]: Re-assigning datapack reload listener...
-[17:37:58] [Render thread/INFO]: Loading default data packs...
-[17:37:58] [Render thread/INFO]: All done with datapacks!
-[17:37:59] [Render thread/INFO]: Registering S2C receiver with id miapi:defaultchannel
-[17:37:59] [Render thread/INFO]: Registering C2S receiver with id miapi:defaultchannel
-[17:37:59] [Render thread/INFO]: Loaded config moonlight-client.json
-[17:37:59] [Render thread/INFO]: Registering C2S receiver with id nucleus:main/9adc544263a13bf78e227a146d1695d9
-[17:37:59] [Render thread/INFO]: Registering S2C receiver with id nucleus:main/9adc544263a13bf78e227a146d1695d9
-[17:37:59] [Render thread/INFO]: Registering C2S receiver with id nucleus:main/fa77e039b1b63b568bcae468100327d5
-[17:37:59] [Render thread/INFO]: Registering S2C receiver with id nucleus:main/fa77e039b1b63b568bcae468100327d5
-[17:37:59] [Render thread/INFO]: Mixing GameRendererMixin from mixins.craftify.json into net.minecraft.class_757
-[17:37:59] [Render thread/INFO]: Registering C2S receiver with id nucleus:main/c8c225b78d053e81a32b497bbcef005c
-[17:37:59] [Render thread/INFO]: Registering S2C receiver with id nucleus:main/c8c225b78d053e81a32b497bbcef005c
-[17:37:59] [Render thread/INFO]: Registering C2S receiver with id nucleus:main/427197c232643741b7368413806caf61
-[17:37:59] [Render thread/INFO]: Registering S2C receiver with id nucleus:main/427197c232643741b7368413806caf61
-[17:37:59] [Render thread/INFO]: Registering C2S receiver with id nucleus:main/c394df3298a034aab0e0f535c5df3ab1
-[17:37:59] [Render thread/INFO]: Registering S2C receiver with id nucleus:main/c394df3298a034aab0e0f535c5df3ab1
-[17:38:00] [Render thread/INFO]: Hello PAUCAL! This is FABRIC!
-[17:38:00] [Render thread/INFO]: Loaded config supplementaries-common.json
-[17:38:00] [Render thread/INFO]: Loaded config supplementaries-client.json
-[17:38:00] [Render thread/INFO]: Registered Truly Modulars Property resolvers:
-[17:38:00] [Render thread/INFO]: registered resolver: miapi:module
-[17:38:00] [Render thread/INFO]: registered resolver: miapi:module_data
-[17:38:00] [Render thread/INFO]: registered resolver: miapi:skin
-[17:38:00] [Render thread/INFO]: registered resolver: miapi:synergies
-[17:38:00] [Render thread/INFO]: registered resolver: miapi:material_property
-[17:38:00] [Render thread/INFO]: registered resolver: miapi:blueprint
-[17:38:01] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
-[17:38:01] [PAUCAL Contributors Loading Thread/INFO]: Loaded 70 contributors and 7 headpat sounds from Github
-[17:38:01] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
-[17:38:01] [Worker-Main-1/INFO]: Checking mod updates...
-[17:38:01] [Render thread/INFO]: Initialized block sets in 14ms
-[17:38:02] [Render thread/INFO]: Initialized color sets in 28ms
-[17:38:02] [Render thread/INFO]: Finished mod setup in: [0, 1, 0, 2, 0, 0, 24, 10, 1] ms
-[17:38:02] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
-[17:38:03] [Render thread/INFO]: Mixing MouseMixin from mixins.craftify.json into net.minecraft.class_312
-[17:38:03] [Render thread/WARN]: Injection warning: LVT in net/minecraft/class_761::method_22710(Lnet/minecraft/class_4587;FJZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lnet/minecraft/class_765;Lorg/joml/Matrix4f;)V has incompatible changes at opcode 208 in callback fabricasting.mixins.json:client.FabricLevelRendererMixin from mod hexcasting->@Inject::snagFrustumFromLevelRenderer(Lnet/minecraft/class_4587;FJZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lnet/minecraft/class_765;Lorg/joml/Matrix4f;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/class_3695;ZLnet/minecraft/class_243;DDDLorg/joml/Matrix4f;ZLnet/minecraft/class_4604;)V.
+[18:33:20] [main/WARN]: Error loading class: io/github/apace100/apoli/util/StackPowerUtil (java.lang.ClassNotFoundException: io/github/apace100/apoli/util/StackPowerUtil)
+[18:33:20] [main/WARN]: @Mixin target io.github.apace100.apoli.util.StackPowerUtil was not found miapi-common.mixins.json:ApoliStackPowerMixin from mod miapi
+[18:33:20] [main/WARN]: Error loading class: net/archers/item/misc/AutoFireHook (java.lang.ClassNotFoundException: net/archers/item/misc/AutoFireHook)
+[18:33:20] [main/WARN]: @Mixin target net.archers.item.misc.AutoFireHook was not found miapi-common.mixins.json:ArcheryHookMixin from mod miapi
+[18:33:20] [main/WARN]: Error loading class: net/bettercombat/api/WeaponAttributesHelper (java.lang.ClassNotFoundException: net/bettercombat/api/WeaponAttributesHelper)
+[18:33:20] [main/WARN]: @Mixin target net.bettercombat.api.WeaponAttributesHelper was not found miapi-common.mixins.json:BCWeaponRegistryMixin from mod miapi
+[18:33:20] [main/WARN]: Error loading class: net/raphimc/immediatelyfast/feature/map_atlas_generation/MapAtlasTexture (java.lang.ClassNotFoundException: net/raphimc/immediatelyfast/feature/map_atlas_generation/MapAtlasTexture)
+[18:33:20] [main/INFO]: [MemoryLeakFix] Will be applying 3 memory leak fixes!
+[18:33:20] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [targetEntityLeak, biomeTemperatureLeak, hugeScreenshotLeak]
+[18:33:20] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[18:33:21] [main/INFO]: Mixing MinecraftClientMixin from mixins.craftify.json into net.minecraft.class_310
+[18:33:24] [main/INFO]: Vanilla bootstrap took 2626 milliseconds
+[18:33:25] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:33:25] [Render thread/INFO]: Setting user: AngrySquid14
+[18:33:25] [Render thread/INFO]: Bypassed Mojang DFU
+[18:33:26] [Cicada thread 0/INFO]: [do_a_barrel_roll] One day I'll finish the swimming version of this mod. One day.
+[18:33:26] [Cicada thread 0/INFO]: [do_a_barrel_roll] Though that day may come sooner than expected...
+[18:33:26] [Render thread/INFO]: Re-assigning datapack reload listener...
+[18:33:26] [Render thread/INFO]: Loading default data packs...
+[18:33:26] [Render thread/INFO]: All done with datapacks!
+[18:33:26] [Render thread/INFO]: Registering S2C receiver with id miapi:defaultchannel
+[18:33:26] [Render thread/INFO]: Registering C2S receiver with id miapi:defaultchannel
+[18:33:27] [Render thread/INFO]: Loaded config moonlight-client.json
+[18:33:27] [Render thread/INFO]: Registering C2S receiver with id nucleus:main/9adc544263a13bf78e227a146d1695d9
+[18:33:27] [Render thread/INFO]: Registering S2C receiver with id nucleus:main/9adc544263a13bf78e227a146d1695d9
+[18:33:27] [Render thread/INFO]: Registering C2S receiver with id nucleus:main/fa77e039b1b63b568bcae468100327d5
+[18:33:27] [Render thread/INFO]: Registering S2C receiver with id nucleus:main/fa77e039b1b63b568bcae468100327d5
+[18:33:27] [Render thread/INFO]: Mixing GameRendererMixin from mixins.craftify.json into net.minecraft.class_757
+[18:33:27] [Render thread/INFO]: Registering C2S receiver with id nucleus:main/c8c225b78d053e81a32b497bbcef005c
+[18:33:27] [Render thread/INFO]: Registering S2C receiver with id nucleus:main/c8c225b78d053e81a32b497bbcef005c
+[18:33:27] [Render thread/INFO]: Registering C2S receiver with id nucleus:main/427197c232643741b7368413806caf61
+[18:33:27] [Render thread/INFO]: Registering S2C receiver with id nucleus:main/427197c232643741b7368413806caf61
+[18:33:27] [Render thread/INFO]: Registering C2S receiver with id nucleus:main/c394df3298a034aab0e0f535c5df3ab1
+[18:33:27] [Render thread/INFO]: Registering S2C receiver with id nucleus:main/c394df3298a034aab0e0f535c5df3ab1
+[18:33:28] [Render thread/INFO]: Hello PAUCAL! This is FABRIC!
+[18:33:28] [Render thread/INFO]: Loaded config supplementaries-common.json
+[18:33:28] [Render thread/INFO]: Loaded config supplementaries-client.json
+[18:33:28] [PAUCAL Contributors Loading Thread/INFO]: Loaded 70 contributors and 7 headpat sounds from Github
+[18:33:28] [Render thread/INFO]: Registered Truly Modulars Property resolvers:
+[18:33:28] [Render thread/INFO]: registered resolver: miapi:module
+[18:33:28] [Render thread/INFO]: registered resolver: miapi:module_data
+[18:33:28] [Render thread/INFO]: registered resolver: miapi:skin
+[18:33:28] [Render thread/INFO]: registered resolver: miapi:synergies
+[18:33:28] [Render thread/INFO]: registered resolver: miapi:material_property
+[18:33:28] [Render thread/INFO]: registered resolver: miapi:blueprint
+[18:33:28] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[18:33:28] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[18:33:29] [Render thread/INFO]: Sending ConfigManager...
+[18:33:29] [Render thread/INFO]: Sending ConfigManager took 1.494 ms
+[18:33:29] [Worker-Main-1/INFO]: Checking mod updates...
+[18:33:29] [Render thread/INFO]: Initialized block sets in 16ms
+[18:33:29] [Render thread/INFO]: Initialized color sets in 19ms
+[18:33:29] [Render thread/INFO]: Finished mod setup in: [0, 0, 0, 2, 0, 0, 18, 7, 1] ms
+[18:33:30] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[18:33:30] [Render thread/INFO]: Mixing MouseMixin from mixins.craftify.json into net.minecraft.class_312
+[18:33:30] [Render thread/WARN]: Injection warning: LVT in net/minecraft/class_761::method_22710(Lnet/minecraft/class_4587;FJZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lnet/minecraft/class_765;Lorg/joml/Matrix4f;)V has incompatible changes at opcode 208 in callback fabricasting.mixins.json:client.FabricLevelRendererMixin from mod hexcasting->@Inject::snagFrustumFromLevelRenderer(Lnet/minecraft/class_4587;FJZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lnet/minecraft/class_765;Lorg/joml/Matrix4f;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/class_3695;ZLnet/minecraft/class_243;DDDLorg/joml/Matrix4f;ZLnet/minecraft/class_4604;)V.
  Expected: [Lnet/minecraft/class_3695;, Z, Lnet/minecraft/class_243;, D, D, D, Lorg/joml/Matrix4f;, Z, Lnet/minecraft/class_4604;]
     Found: [Lnet/minecraft/class_3695;, Lnet/minecraft/class_243;, D, D, D, Lorg/joml/Matrix4f;, Z, Lnet/minecraft/class_4604;]
 Available: [Lnet/minecraft/class_3695;, Lnet/minecraft/class_243;, D, D, D, Lorg/joml/Matrix4f;, Z, Lnet/minecraft/class_4604;]
-[17:38:03] [Finalizer/WARN]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
-[17:38:03] [Render thread/INFO]: Invalidating pack caches
-[17:38:03] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (archery, armory, arsenal, cardinal-components, cardinal-components-base, cardinal-components-block, cardinal-components-chunk, cardinal-components-entity, cardinal-components-item, cardinal-components-level, cardinal-components-scoreboard, cardinal-components-world, cicada, cloth-config, decorative_blocks, do_a_barrel_roll, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, forgeconfigapiport, grapplemod, hexcasting, invmove, lithium, miapi, modernfix, modmenu, moonlight, niftycarts, nucleus, nucleus_config, patchouli, paucal, reach-entity-attributes, serialization_hooks, supplementaries), Moonlight Mods Dynamic Assets
-[17:38:03] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (moonlight) in: 2 ms
-[17:38:03] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (supplementaries) in: 43 ms
-[17:38:04] [Worker-ResourceReload-11/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
-[17:38:04] [Render thread/INFO]: Successfully created file watcher (and thread) for config folder. (C:\Users\Jackw\AppData\Roaming\ModrinthApp\profiles\testthing\config)
-[17:38:04] [Render thread/ERROR]: Registry 'serialization_hooks:value_deserializers' was empty after loading
-[17:38:04] [Worker-ResourceReload-12/WARN]: Texture hexcasting:entity/white with size 1x1 limits mip level from 4 to 0
-[17:38:04] [Worker-ResourceReload-12/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 0, because of minimum power of two: 1
-[17:38:05] [Worker-ResourceReload-6/WARN]: Unable to load model: 'supplementaries:gunpowder#inventory' referenced from: supplementaries:gunpowder#inventory: java.io.FileNotFoundException: supplementaries:models/item/gunpowder.json
-[17:38:05] [Worker-ResourceReload-6/WARN]: Unable to load model: 'decorative_blocks:blockstate_copy_item#inventory' referenced from: decorative_blocks:blockstate_copy_item#inventory: java.io.FileNotFoundException: decorative_blocks:models/item/blockstate_copy_item.json
-[17:38:06] [Worker-ResourceReload-6/WARN]: Missing textures in model supplementaries:globe#inventory:
+[18:33:30] [Render thread/INFO]: Replacing search trees with 'JEI' provider
+[18:33:30] [Finalizer/WARN]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
+[18:33:31] [Render thread/INFO]: Invalidating pack caches
+[18:33:31] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (archery, armory, arsenal, cardinal-components, cardinal-components-base, cardinal-components-block, cardinal-components-chunk, cardinal-components-entity, cardinal-components-item, cardinal-components-level, cardinal-components-scoreboard, cardinal-components-world, cicada, cloth-config, decorative_blocks, do_a_barrel_roll, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, forgeconfigapiport, grapplemod, hexcasting, invmove, jei, miapi, modernfix, modmenu, moonlight, niftycarts, nucleus, nucleus_config, patchouli, paucal, reach-entity-attributes, serialization_hooks, supplementaries), Moonlight Mods Dynamic Assets
+[18:33:31] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (moonlight) in: 9 ms
+[18:33:31] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (supplementaries) in: 43 ms
+[18:33:31] [Worker-ResourceReload-13/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[18:33:31] [Render thread/INFO]: Successfully created file watcher (and thread) for config folder. (C:\Users\Jackw\AppData\Roaming\ModrinthApp\profiles\testthing\config)
+[18:33:31] [Render thread/ERROR]: Registry 'serialization_hooks:value_deserializers' was empty after loading
+[18:33:31] [Worker-ResourceReload-9/WARN]: Texture hexcasting:entity/white with size 1x1 limits mip level from 4 to 0
+[18:33:31] [Worker-ResourceReload-9/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 0, because of minimum power of two: 1
+[18:33:32] [Worker-ResourceReload-3/WARN]: Unable to load model: 'supplementaries:gunpowder#inventory' referenced from: supplementaries:gunpowder#inventory: java.io.FileNotFoundException: supplementaries:models/item/gunpowder.json
+[18:33:32] [Worker-ResourceReload-3/WARN]: Unable to load model: 'decorative_blocks:blockstate_copy_item#inventory' referenced from: decorative_blocks:blockstate_copy_item#inventory: java.io.FileNotFoundException: decorative_blocks:models/item/blockstate_copy_item.json
+[18:33:33] [Worker-ResourceReload-3/WARN]: Missing textures in model supplementaries:globe#inventory:
     minecraft:textures/atlas/blocks.png:supplementaries:item/globes/globe_zam
-[17:38:07] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
-[17:38:07] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[17:38:07] [Render thread/WARN]: Missing sound for event: supplementaries:item.wrench.hit
-[17:38:07] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (High Definition Audio Device)
-[17:38:07] [Render thread/INFO]: Sound engine started
-[17:38:07] [Render thread/INFO]: Created: 2048x2048x0 minecraft:textures/atlas/blocks.png-atlas
-[17:38:07] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[17:38:07] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[17:38:07] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[17:38:07] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[17:38:07] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[17:38:07] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[17:38:07] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[17:38:07] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[17:38:07] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[17:38:07] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[17:38:07] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[17:38:07] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[17:38:07] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[17:38:07] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[17:38:07] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[17:38:07] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[17:38:07] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[17:38:08] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[17:38:08] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[17:38:08] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[17:38:08] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[17:38:08] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[17:38:08] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[17:38:08] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[17:38:08] [Render thread/INFO]: Created: 256x256x0 moonlight:textures/atlas/map_markers.png-atlas
-[17:38:08] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[17:38:08] [Render thread/INFO]: BookContentResourceListenerLoader preloaded 90 jsons
-[17:38:10] [Render thread/WARN]: Game took 27.876 seconds to start
-[17:38:50] [Render thread/ERROR]: Can't ping 10.0.0.177: Timed out
-[18:16:12] [Render thread/INFO]: Stopping!
+[18:33:33] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[18:33:33] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[18:33:33] [Render thread/WARN]: Missing sound for event: supplementaries:item.wrench.hit
+[18:33:33] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (High Definition Audio Device)
+[18:33:33] [Render thread/INFO]: Sound engine started
+[18:33:33] [Render thread/INFO]: Created: 2048x2048x0 minecraft:textures/atlas/blocks.png-atlas
+[18:33:34] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[18:33:34] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[18:33:34] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[18:33:34] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[18:33:34] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[18:33:34] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[18:33:34] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[18:33:34] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[18:33:34] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[18:33:34] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[18:33:34] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[18:33:34] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[18:33:34] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[18:33:34] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[18:33:34] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[18:33:34] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[18:33:34] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[18:33:34] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[18:33:34] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[18:33:34] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[18:33:34] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[18:33:34] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[18:33:34] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[18:33:34] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[18:33:34] [Render thread/INFO]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[18:33:34] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[18:33:34] [Render thread/INFO]: Created: 256x256x0 moonlight:textures/atlas/map_markers.png-atlas
+[18:33:34] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[18:33:34] [Render thread/INFO]: BookContentResourceListenerLoader preloaded 90 jsons
+[18:33:36] [Render thread/WARN]: Game took 18.568 seconds to start
+[18:33:39] [Render thread/INFO]: Stopping!
+[18:33:39] [Render thread/INFO]: Stopping JEI
+[18:33:39] [Render thread/INFO]: Stopping JEI
+[18:33:39] [Render thread/INFO]: Sending Runtime Unavailable...
+[18:33:39] [Render thread/INFO]: Stopping JEI GUI
+[18:33:39] [Render thread/INFO]: Sending Runtime Unavailable took 231.2 ?s

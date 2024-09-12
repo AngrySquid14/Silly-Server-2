@@ -22,7 +22,7 @@
 
 [login]
 	refresh_token = "AQAKvDwklnZbuDwWC1b1fTaTLsEkoZTyh0cJ-bhHHsNcLAv-mvR71emQ-yb90e8Y0heRxyHH35C-oTI0c3AJtYQV9RZphUFwgmgdXJYZijEWajh_g4I8_Dxri0k8ucHYYeg"
-	spotify_login_token = "BQBlp4rLVyBHyZ3KCcKdLFBtYxb5a4uQ02BhQHfqBZ486CiIhY21ZKdR8FISjUxoItEoTjvBNMyvR4nGu2iXz-K4uBLV69GX9q5uSgHBKhvYGlX7405KXBkO9vnhWyhYZ-5WUQB6F8B7faBsxhdBYes6JhSdkeKh1tVZRyv7ithBJBLgn4APV2fVZj9VDYnoqdx_cGbfPxTtfIZe2ob4bOA"
+	spotify_login_token = ""
 	ytmd_token = ""
 	service_port = 8880
 
