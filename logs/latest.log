@@ -1,5 +1,5 @@
-[20:18:51] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.5
-[20:18:51] [main/INFO]: Loading 121 mods:
+[17:37:44] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.5
+[17:37:44] [main/INFO]: Loading 119 mods:
 	- archery 1.4
 	- architectury 9.2.14
 	- armory 1.9
@@ -20,6 +20,7 @@
 	   |-- elementa 636
 	   |-- universalcraft 342
 	   \-- vigilance 295
+	- decorative_blocks 4.1.3
 	- do_a_barrel_roll 3.6.1+1.20.1
 	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
 	   \-- mixinsquared 0.1.1
@@ -119,20 +120,17 @@
 	- paucal 0.6.0-pre-118
 	- supplementaries 1.20-2.8.17
 	   \-- mixinsquared 0.1.1
-	- terrablender 3.0.1.7
-	   |-- com_electronwill_night-config_core 3.6.7
-	   \-- com_electronwill_night-config_toml 3.6.7
-[20:18:58] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Jackw/AppData/Roaming/ModrinthApp/meta/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[20:18:58] [main/INFO]: Compatibility level set to JAVA_17
-[20:18:58] [main/WARN]: Reference map 'Truly-Modular-archery-archery-common-refmap.json' for archery-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:18:58] [main/WARN]: Reference map 'Truly-Modular-armory-armory-common-refmap.json' for armory-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:18:58] [main/WARN]: Reference map 'Truly-Modular-arsenal-arsenal-common-refmap.json' for arsenal-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:18:58] [main/WARN]: Reference map 'InvMove-mc1.20_fabric-refmap.json' for invmove-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:18:58] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 1 override(s) found
-[20:18:58] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:18:58] [main/INFO]: Loaded configuration file for ModernFix 5.19.4+mc1.20.1: 61 options available, 0 override(s) found
-[20:18:58] [main/INFO]: Applying Nashorn fix
-[20:18:59] [main/ERROR]: The specified mixin 'tech.thatgravyboat.craftify.mixin.CustomPayloadMixin' was not found
+[17:37:45] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Jackw/AppData/Roaming/ModrinthApp/meta/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[17:37:45] [main/INFO]: Compatibility level set to JAVA_17
+[17:37:45] [main/WARN]: Reference map 'Truly-Modular-archery-archery-common-refmap.json' for archery-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:37:45] [main/WARN]: Reference map 'Truly-Modular-armory-armory-common-refmap.json' for armory-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:37:45] [main/WARN]: Reference map 'Truly-Modular-arsenal-arsenal-common-refmap.json' for arsenal-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:37:45] [main/WARN]: Reference map 'InvMove-mc1.20_fabric-refmap.json' for invmove-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:37:45] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 1 override(s) found
+[17:37:45] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:37:46] [main/INFO]: Loaded configuration file for ModernFix 5.19.4+mc1.20.1: 61 options available, 0 override(s) found
+[17:37:46] [main/INFO]: Applying Nashorn fix
+[17:37:47] [main/ERROR]: The specified mixin 'tech.thatgravyboat.craftify.mixin.CustomPayloadMixin' was not found
 org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: The specified mixin 'tech.thatgravyboat.craftify.mixin.CustomPayloadMixin' was not found
 	at org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:864) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
 	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:933) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
@@ -161,482 +159,114 @@ Caused by: java.lang.ClassNotFoundException: The specified mixin 'tech.thatgravy
 	at org.spongepowered.asm.mixin.transformer.MixinInfo.loadMixinClass(MixinInfo.java:1318) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
 	at org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:857) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
 	... 22 more
-[20:18:59] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[20:18:59] [main/WARN]: Error loading class: io/github/apace100/apoli/util/StackPowerUtil (java.lang.ClassNotFoundException: io/github/apace100/apoli/util/StackPowerUtil)
-[20:18:59] [main/WARN]: @Mixin target io.github.apace100.apoli.util.StackPowerUtil was not found miapi-common.mixins.json:ApoliStackPowerMixin from mod miapi
-[20:18:59] [main/WARN]: Error loading class: net/archers/item/misc/AutoFireHook (java.lang.ClassNotFoundException: net/archers/item/misc/AutoFireHook)
-[20:18:59] [main/WARN]: @Mixin target net.archers.item.misc.AutoFireHook was not found miapi-common.mixins.json:ArcheryHookMixin from mod miapi
-[20:18:59] [main/WARN]: Error loading class: net/bettercombat/api/WeaponAttributesHelper (java.lang.ClassNotFoundException: net/bettercombat/api/WeaponAttributesHelper)
-[20:18:59] [main/WARN]: @Mixin target net.bettercombat.api.WeaponAttributesHelper was not found miapi-common.mixins.json:BCWeaponRegistryMixin from mod miapi
-[20:18:59] [main/WARN]: Error loading class: net/raphimc/immediatelyfast/feature/map_atlas_generation/MapAtlasTexture (java.lang.ClassNotFoundException: net/raphimc/immediatelyfast/feature/map_atlas_generation/MapAtlasTexture)
-[20:18:59] [main/INFO]: [MemoryLeakFix] Will be applying 3 memory leak fixes!
-[20:18:59] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [targetEntityLeak, biomeTemperatureLeak, hugeScreenshotLeak]
-[20:19:00] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[20:19:01] [main/INFO]: Mixing MinecraftClientMixin from mixins.craftify.json into net.minecraft.class_310
-[20:19:03] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[20:19:03] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[20:19:03] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[20:19:05] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[20:19:05] [main/INFO]: Vanilla bootstrap took 3208 milliseconds
-[20:19:05] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:19:06] [Render thread/INFO]: Setting user: AngrySquid14
-[20:19:06] [Render thread/INFO]: Bypassed Mojang DFU
-[20:19:07] [Cicada thread 0/INFO]: [cicada] Hello, anyone there?
-[20:19:07] [Cicada thread 0/INFO]: [do_a_barrel_roll] I'm here, ready to rumble!
-[20:19:07] [Render thread/INFO]: Re-assigning datapack reload listener...
-[20:19:07] [Render thread/INFO]: Loading default data packs...
-[20:19:07] [Render thread/INFO]: All done with datapacks!
-[20:19:07] [Render thread/INFO]: Registering S2C receiver with id miapi:defaultchannel
-[20:19:07] [Render thread/INFO]: Registering C2S receiver with id miapi:defaultchannel
-[20:19:08] [Render thread/INFO]: Loaded config moonlight-client.json
-[20:19:09] [Render thread/WARN]: Configuration file C:\Users\Jackw\AppData\Roaming\ModrinthApp\profiles\testthing\config\niftycarts-common.toml is not correct. Correcting
-[20:19:09] [Render thread/WARN]: Incorrect key carts was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:19:09] [Render thread/WARN]: Incorrect key carts.supply_cart was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:19:09] [Render thread/WARN]: Incorrect key carts.supply_cart.pull_animals was corrected from null to its default, []. 
-[20:19:09] [Render thread/WARN]: Incorrect key carts.supply_cart.slow_speed was corrected from null to its default, -0.65. 
-[20:19:09] [Render thread/WARN]: Incorrect key carts.supply_cart.pull_speed was corrected from null to its default, 0.0. 
-[20:19:09] [Render thread/WARN]: Incorrect key carts.handCart was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:19:09] [Render thread/WARN]: Incorrect key carts.handCart.pull_animals was corrected from null to its default, [minecraft:player]. 
-[20:19:09] [Render thread/WARN]: Incorrect key carts.handCart.slow_speed was corrected from null to its default, -0.65. 
-[20:19:09] [Render thread/WARN]: Incorrect key carts.handCart.pull_speed was corrected from null to its default, 0.0. 
-[20:19:09] [Render thread/WARN]: Incorrect key carts.animal_cart was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:19:09] [Render thread/WARN]: Incorrect key carts.animal_cart.pull_animals was corrected from null to its default, []. 
-[20:19:09] [Render thread/WARN]: Incorrect key carts.animal_cart.slow_speed was corrected from null to its default, -0.65. 
-[20:19:09] [Render thread/WARN]: Incorrect key carts.animal_cart.pull_speed was corrected from null to its default, 0.0. 
-[20:19:09] [Render thread/WARN]: Incorrect key carts.plow was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:19:09] [Render thread/WARN]: Incorrect key carts.plow.pull_animals was corrected from null to its default, []. 
-[20:19:09] [Render thread/WARN]: Incorrect key carts.plow.slow_speed was corrected from null to its default, -0.65. 
-[20:19:09] [Render thread/WARN]: Incorrect key carts.plow.pull_speed was corrected from null to its default, 0.0. 
-[20:19:09] [Render thread/INFO]: Registering C2S receiver with id nucleus:main/9adc544263a13bf78e227a146d1695d9
-[20:19:09] [Render thread/INFO]: Registering S2C receiver with id nucleus:main/9adc544263a13bf78e227a146d1695d9
-[20:19:09] [Render thread/INFO]: Registering C2S receiver with id nucleus:main/fa77e039b1b63b568bcae468100327d5
-[20:19:09] [Render thread/INFO]: Registering S2C receiver with id nucleus:main/fa77e039b1b63b568bcae468100327d5
-[20:19:09] [Thread-2/WARN]: Configuration file C:\Users\Jackw\AppData\Roaming\ModrinthApp\profiles\testthing\config\niftycarts-common.toml is not correct. Correcting
-[20:19:09] [Thread-2/WARN]: Incorrect key carts.supply_cart.pull_speed was corrected from 0.0 to its default, -0.1. 
-[20:19:09] [Thread-2/WARN]: Incorrect key carts.handCart.pull_speed was corrected from 0.0 to its default, -0.1. 
-[20:19:09] [Thread-2/WARN]: Incorrect key carts.animal_cart.pull_speed was corrected from 0.0 to its default, -0.1. 
-[20:19:09] [Thread-2/WARN]: Incorrect key carts.plow.pull_speed was corrected from 0.0 to its default, -0.1. 
-[20:19:09] [Render thread/INFO]: Mixing GameRendererMixin from mixins.craftify.json into net.minecraft.class_757
-[20:19:09] [Render thread/INFO]: Registering C2S receiver with id nucleus:main/c8c225b78d053e81a32b497bbcef005c
-[20:19:09] [Render thread/INFO]: Registering S2C receiver with id nucleus:main/c8c225b78d053e81a32b497bbcef005c
-[20:19:09] [Render thread/INFO]: Registering C2S receiver with id nucleus:main/427197c232643741b7368413806caf61
-[20:19:09] [Render thread/INFO]: Registering S2C receiver with id nucleus:main/427197c232643741b7368413806caf61
-[20:19:09] [Render thread/INFO]: Registering C2S receiver with id nucleus:main/c394df3298a034aab0e0f535c5df3ab1
-[20:19:09] [Render thread/INFO]: Registering S2C receiver with id nucleus:main/c394df3298a034aab0e0f535c5df3ab1
-[20:19:09] [Render thread/INFO]: Hello PAUCAL! This is FABRIC!
-[20:19:09] [Render thread/INFO]: Loaded config supplementaries-common.json
-[20:19:09] [Render thread/INFO]: Loaded config supplementaries-client.json
-[20:19:10] [Render thread/INFO]: Registered Truly Modulars Property resolvers:
-[20:19:10] [Render thread/INFO]: registered resolver: miapi:module
-[20:19:10] [Render thread/INFO]: registered resolver: miapi:module_data
-[20:19:10] [Render thread/INFO]: registered resolver: miapi:skin
-[20:19:10] [Render thread/INFO]: registered resolver: miapi:synergies
-[20:19:10] [Render thread/INFO]: registered resolver: miapi:material_property
-[20:19:10] [Render thread/INFO]: registered resolver: miapi:blueprint
-[20:19:10] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
-[20:19:10] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
-[20:19:10] [PAUCAL Contributors Loading Thread/INFO]: Loaded 70 contributors and 7 headpat sounds from Github
-[20:19:10] [Worker-Main-1/INFO]: Checking mod updates...
-[20:19:11] [Render thread/INFO]: Initialized block sets in 16ms
-[20:19:11] [Render thread/INFO]: Initialized color sets in 18ms
-[20:19:11] [Render thread/INFO]: Finished mod setup in: [0, 0, 0, 0, 0, 0, 16, 9, 1] ms
-[20:19:11] [Render thread/WARN]: Configuration file C:\Users\Jackw\AppData\Roaming\ModrinthApp\profiles\testthing\config\niftycarts-client.toml is not correct. Correcting
-[20:19:11] [Render thread/WARN]: Incorrect key render_supplies was corrected from null to its default, true. 
-[20:19:11] [Render thread/WARN]: Incorrect key render_supply_gear was corrected from null to its default, true. 
-[20:19:11] [Render thread/WARN]: Incorrect key render_supply_flowers was corrected from null to its default, true. 
-[20:19:11] [Render thread/WARN]: Incorrect key render_supply_paintings was corrected from null to its default, true. 
-[20:19:11] [Render thread/WARN]: Incorrect key render_supply_wheel was corrected from null to its default, true. 
-[20:19:11] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
-[20:19:12] [Render thread/INFO]: Mixing MouseMixin from mixins.craftify.json into net.minecraft.class_312
-[20:19:12] [Render thread/WARN]: Injection warning: LVT in net/minecraft/class_761::method_22710(Lnet/minecraft/class_4587;FJZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lnet/minecraft/class_765;Lorg/joml/Matrix4f;)V has incompatible changes at opcode 208 in callback fabricasting.mixins.json:client.FabricLevelRendererMixin from mod hexcasting->@Inject::snagFrustumFromLevelRenderer(Lnet/minecraft/class_4587;FJZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lnet/minecraft/class_765;Lorg/joml/Matrix4f;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/class_3695;ZLnet/minecraft/class_243;DDDLorg/joml/Matrix4f;ZLnet/minecraft/class_4604;)V.
+[17:37:47] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[17:37:47] [main/WARN]: Error loading class: io/github/apace100/apoli/util/StackPowerUtil (java.lang.ClassNotFoundException: io/github/apace100/apoli/util/StackPowerUtil)
+[17:37:47] [main/WARN]: @Mixin target io.github.apace100.apoli.util.StackPowerUtil was not found miapi-common.mixins.json:ApoliStackPowerMixin from mod miapi
+[17:37:47] [main/WARN]: Error loading class: net/archers/item/misc/AutoFireHook (java.lang.ClassNotFoundException: net/archers/item/misc/AutoFireHook)
+[17:37:47] [main/WARN]: @Mixin target net.archers.item.misc.AutoFireHook was not found miapi-common.mixins.json:ArcheryHookMixin from mod miapi
+[17:37:47] [main/WARN]: Error loading class: net/bettercombat/api/WeaponAttributesHelper (java.lang.ClassNotFoundException: net/bettercombat/api/WeaponAttributesHelper)
+[17:37:47] [main/WARN]: @Mixin target net.bettercombat.api.WeaponAttributesHelper was not found miapi-common.mixins.json:BCWeaponRegistryMixin from mod miapi
+[17:37:48] [main/WARN]: Error loading class: net/raphimc/immediatelyfast/feature/map_atlas_generation/MapAtlasTexture (java.lang.ClassNotFoundException: net/raphimc/immediatelyfast/feature/map_atlas_generation/MapAtlasTexture)
+[17:37:48] [main/INFO]: [MemoryLeakFix] Will be applying 3 memory leak fixes!
+[17:37:48] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [targetEntityLeak, biomeTemperatureLeak, hugeScreenshotLeak]
+[17:37:48] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[17:37:50] [main/INFO]: Mixing MinecraftClientMixin from mixins.craftify.json into net.minecraft.class_310
+[17:37:53] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[17:37:53] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[17:37:53] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[17:37:56] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[17:37:56] [main/INFO]: Vanilla bootstrap took 4659 milliseconds
+[17:37:57] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:37:57] [Render thread/INFO]: Setting user: AngrySquid14
+[17:37:57] [Render thread/INFO]: Bypassed Mojang DFU
+[17:37:58] [Cicada thread 0/INFO]: [do_a_barrel_roll] Why play a flight sim when you have modded Minecraft?
+[17:37:58] [Render thread/INFO]: Re-assigning datapack reload listener...
+[17:37:58] [Render thread/INFO]: Loading default data packs...
+[17:37:58] [Render thread/INFO]: All done with datapacks!
+[17:37:59] [Render thread/INFO]: Registering S2C receiver with id miapi:defaultchannel
+[17:37:59] [Render thread/INFO]: Registering C2S receiver with id miapi:defaultchannel
+[17:37:59] [Render thread/INFO]: Loaded config moonlight-client.json
+[17:37:59] [Render thread/INFO]: Registering C2S receiver with id nucleus:main/9adc544263a13bf78e227a146d1695d9
+[17:37:59] [Render thread/INFO]: Registering S2C receiver with id nucleus:main/9adc544263a13bf78e227a146d1695d9
+[17:37:59] [Render thread/INFO]: Registering C2S receiver with id nucleus:main/fa77e039b1b63b568bcae468100327d5
+[17:37:59] [Render thread/INFO]: Registering S2C receiver with id nucleus:main/fa77e039b1b63b568bcae468100327d5
+[17:37:59] [Render thread/INFO]: Mixing GameRendererMixin from mixins.craftify.json into net.minecraft.class_757
+[17:37:59] [Render thread/INFO]: Registering C2S receiver with id nucleus:main/c8c225b78d053e81a32b497bbcef005c
+[17:37:59] [Render thread/INFO]: Registering S2C receiver with id nucleus:main/c8c225b78d053e81a32b497bbcef005c
+[17:37:59] [Render thread/INFO]: Registering C2S receiver with id nucleus:main/427197c232643741b7368413806caf61
+[17:37:59] [Render thread/INFO]: Registering S2C receiver with id nucleus:main/427197c232643741b7368413806caf61
+[17:37:59] [Render thread/INFO]: Registering C2S receiver with id nucleus:main/c394df3298a034aab0e0f535c5df3ab1
+[17:37:59] [Render thread/INFO]: Registering S2C receiver with id nucleus:main/c394df3298a034aab0e0f535c5df3ab1
+[17:38:00] [Render thread/INFO]: Hello PAUCAL! This is FABRIC!
+[17:38:00] [Render thread/INFO]: Loaded config supplementaries-common.json
+[17:38:00] [Render thread/INFO]: Loaded config supplementaries-client.json
+[17:38:00] [Render thread/INFO]: Registered Truly Modulars Property resolvers:
+[17:38:00] [Render thread/INFO]: registered resolver: miapi:module
+[17:38:00] [Render thread/INFO]: registered resolver: miapi:module_data
+[17:38:00] [Render thread/INFO]: registered resolver: miapi:skin
+[17:38:00] [Render thread/INFO]: registered resolver: miapi:synergies
+[17:38:00] [Render thread/INFO]: registered resolver: miapi:material_property
+[17:38:00] [Render thread/INFO]: registered resolver: miapi:blueprint
+[17:38:01] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[17:38:01] [PAUCAL Contributors Loading Thread/INFO]: Loaded 70 contributors and 7 headpat sounds from Github
+[17:38:01] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[17:38:01] [Worker-Main-1/INFO]: Checking mod updates...
+[17:38:01] [Render thread/INFO]: Initialized block sets in 14ms
+[17:38:02] [Render thread/INFO]: Initialized color sets in 28ms
+[17:38:02] [Render thread/INFO]: Finished mod setup in: [0, 1, 0, 2, 0, 0, 24, 10, 1] ms
+[17:38:02] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[17:38:03] [Render thread/INFO]: Mixing MouseMixin from mixins.craftify.json into net.minecraft.class_312
+[17:38:03] [Render thread/WARN]: Injection warning: LVT in net/minecraft/class_761::method_22710(Lnet/minecraft/class_4587;FJZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lnet/minecraft/class_765;Lorg/joml/Matrix4f;)V has incompatible changes at opcode 208 in callback fabricasting.mixins.json:client.FabricLevelRendererMixin from mod hexcasting->@Inject::snagFrustumFromLevelRenderer(Lnet/minecraft/class_4587;FJZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lnet/minecraft/class_765;Lorg/joml/Matrix4f;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/class_3695;ZLnet/minecraft/class_243;DDDLorg/joml/Matrix4f;ZLnet/minecraft/class_4604;)V.
  Expected: [Lnet/minecraft/class_3695;, Z, Lnet/minecraft/class_243;, D, D, D, Lorg/joml/Matrix4f;, Z, Lnet/minecraft/class_4604;]
     Found: [Lnet/minecraft/class_3695;, Lnet/minecraft/class_243;, D, D, D, Lorg/joml/Matrix4f;, Z, Lnet/minecraft/class_4604;]
 Available: [Lnet/minecraft/class_3695;, Lnet/minecraft/class_243;, D, D, D, Lorg/joml/Matrix4f;, Z, Lnet/minecraft/class_4604;]
-[20:19:12] [Finalizer/WARN]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
-[20:19:13] [Render thread/INFO]: Invalidating pack caches
-[20:19:13] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (archery, armory, arsenal, cardinal-components, cardinal-components-base, cardinal-components-block, cardinal-components-chunk, cardinal-components-entity, cardinal-components-item, cardinal-components-level, cardinal-components-scoreboard, cardinal-components-world, cicada, cloth-config, do_a_barrel_roll, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, forgeconfigapiport, grapplemod, hexcasting, invmove, lithium, miapi, modernfix, modmenu, moonlight, niftycarts, nucleus, nucleus_config, patchouli, paucal, reach-entity-attributes, serialization_hooks, supplementaries, terrablender), Moonlight Mods Dynamic Assets
-[20:19:13] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (moonlight) in: 6 ms
-[20:19:13] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (supplementaries) in: 78 ms
-[20:19:13] [Worker-ResourceReload-13/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
-[20:19:13] [Render thread/INFO]: Successfully created file watcher (and thread) for config folder. (C:\Users\Jackw\AppData\Roaming\ModrinthApp\profiles\testthing\config)
-[20:19:14] [Render thread/ERROR]: Registry 'serialization_hooks:value_deserializers' was empty after loading
-[20:19:14] [Worker-ResourceReload-7/WARN]: Texture hexcasting:entity/white with size 1x1 limits mip level from 4 to 0
-[20:19:14] [Worker-ResourceReload-7/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 0, because of minimum power of two: 1
-[20:19:15] [Worker-ResourceReload-6/WARN]: Unable to load model: 'supplementaries:gunpowder#inventory' referenced from: supplementaries:gunpowder#inventory: java.io.FileNotFoundException: supplementaries:models/item/gunpowder.json
-[20:19:16] [Worker-ResourceReload-6/WARN]: Missing textures in model supplementaries:globe#inventory:
+[17:38:03] [Finalizer/WARN]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
+[17:38:03] [Render thread/INFO]: Invalidating pack caches
+[17:38:03] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (archery, armory, arsenal, cardinal-components, cardinal-components-base, cardinal-components-block, cardinal-components-chunk, cardinal-components-entity, cardinal-components-item, cardinal-components-level, cardinal-components-scoreboard, cardinal-components-world, cicada, cloth-config, decorative_blocks, do_a_barrel_roll, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, forgeconfigapiport, grapplemod, hexcasting, invmove, lithium, miapi, modernfix, modmenu, moonlight, niftycarts, nucleus, nucleus_config, patchouli, paucal, reach-entity-attributes, serialization_hooks, supplementaries), Moonlight Mods Dynamic Assets
+[17:38:03] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (moonlight) in: 2 ms
+[17:38:03] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (supplementaries) in: 43 ms
+[17:38:04] [Worker-ResourceReload-11/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[17:38:04] [Render thread/INFO]: Successfully created file watcher (and thread) for config folder. (C:\Users\Jackw\AppData\Roaming\ModrinthApp\profiles\testthing\config)
+[17:38:04] [Render thread/ERROR]: Registry 'serialization_hooks:value_deserializers' was empty after loading
+[17:38:04] [Worker-ResourceReload-12/WARN]: Texture hexcasting:entity/white with size 1x1 limits mip level from 4 to 0
+[17:38:04] [Worker-ResourceReload-12/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 0, because of minimum power of two: 1
+[17:38:05] [Worker-ResourceReload-6/WARN]: Unable to load model: 'supplementaries:gunpowder#inventory' referenced from: supplementaries:gunpowder#inventory: java.io.FileNotFoundException: supplementaries:models/item/gunpowder.json
+[17:38:05] [Worker-ResourceReload-6/WARN]: Unable to load model: 'decorative_blocks:blockstate_copy_item#inventory' referenced from: decorative_blocks:blockstate_copy_item#inventory: java.io.FileNotFoundException: decorative_blocks:models/item/blockstate_copy_item.json
+[17:38:06] [Worker-ResourceReload-6/WARN]: Missing textures in model supplementaries:globe#inventory:
     minecraft:textures/atlas/blocks.png:supplementaries:item/globes/globe_zam
-[20:19:17] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
-[20:19:17] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[20:19:17] [Render thread/WARN]: Missing sound for event: supplementaries:item.wrench.hit
-[20:19:17] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (High Definition Audio Device)
-[20:19:17] [Render thread/INFO]: Sound engine started
-[20:19:17] [Render thread/INFO]: Created: 2048x2048x0 minecraft:textures/atlas/blocks.png-atlas
-[20:19:17] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[20:19:17] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[20:19:17] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[20:19:17] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[20:19:17] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[20:19:17] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[20:19:17] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[20:19:17] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[20:19:17] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[20:19:17] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[20:19:17] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[20:19:17] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[20:19:17] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[20:19:17] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[20:19:17] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[20:19:17] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[20:19:17] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[20:19:18] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[20:19:18] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[20:19:18] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[20:19:18] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[20:19:18] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[20:19:18] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[20:19:18] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[20:19:18] [Render thread/INFO]: Created: 256x256x0 moonlight:textures/atlas/map_markers.png-atlas
-[20:19:18] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[20:19:18] [Render thread/INFO]: BookContentResourceListenerLoader preloaded 90 jsons
-[20:19:20] [Render thread/WARN]: Game took 31.602 seconds to start
-[20:55:20] [Render thread/INFO]: Deleting level New World
-[20:55:20] [Render thread/INFO]: Attempt 1...
-[20:55:20] [Render thread/INFO]: Found new data pack Moonlight Mods Dynamic Assets, loading it automatically
-[20:55:20] [Render thread/INFO]: Found new data pack Supplementaries Generated Pack, loading it automatically
-[20:55:20] [Render thread/INFO]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 25 ms
-[20:55:21] [Render thread/INFO]: Loaded 8 recipes
-[20:55:21] [Render thread/ERROR]: Parsing error loading custom advancement supplementaries:recipes/planter_rich: Unknown item id 'farmersdelight:rich_soil'
-[20:55:21] [Render thread/INFO]: Loaded 1596 advancements
-[20:55:21] [Render thread/INFO]: Loaded 27 flute songs
-[20:55:21] [Render thread/INFO]: Finished additional setup in 13 ms
-[20:55:21] [Render thread/INFO]: Applied 7 data villager trades
-[20:55:21] [Render thread/INFO]: Cleared non-static resources for pack supplementaries:generated_pack in: 0 ms
-[20:55:22] [ForkJoinPool.commonPool-worker-1/WARN]: ItemModule is null?
-[20:55:22] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 76 Synergies
-[20:55:22] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 1012 Skins
-[20:55:22] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 1 Injectors/Property Substitutors
-[20:55:22] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 154 Modules
-[20:55:22] [ForkJoinPool.commonPool-worker-1/INFO]: Found 53 Enchantments
-[20:55:22] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 58 Modular Converters
-[20:55:22] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 114 Materials
-[20:55:22] [ForkJoinPool.commonPool-worker-1/INFO]: Server load took 894.9630999999999 ms
-[20:55:23] [Render thread/INFO]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 1 ms
-[20:55:23] [Render thread/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[20:55:23] [Render thread/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[20:55:23] [Render thread/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[20:55:23] [Render thread/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[20:55:23] [Render thread/INFO]: Applied 107 biome modifications to 54 of 65 new biomes in 9.469 ms
-[20:55:23] [Server thread/INFO]: Starting integrated minecraft server version 1.20.1
-[20:55:23] [Server thread/INFO]: Generating keypair
-[20:55:24] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
-[20:55:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:55:27] [Render thread/INFO]: Preparing spawn area: 0%
-[20:55:27] [Render thread/INFO]: Preparing spawn area: 0%
-[20:55:28] [Render thread/INFO]: Preparing spawn area: 0%
-[20:55:28] [Render thread/INFO]: Preparing spawn area: 1%
-[20:55:29] [Render thread/INFO]: Preparing spawn area: 2%
-[20:55:29] [Render thread/INFO]: Preparing spawn area: 4%
-[20:55:30] [Render thread/INFO]: Preparing spawn area: 5%
-[20:55:30] [Render thread/INFO]: Preparing spawn area: 8%
-[20:55:31] [Render thread/INFO]: Preparing spawn area: 10%
-[20:55:31] [Render thread/INFO]: Preparing spawn area: 13%
-[20:55:32] [Render thread/INFO]: Preparing spawn area: 16%
-[20:55:32] [Render thread/INFO]: Preparing spawn area: 19%
-[20:55:33] [Render thread/INFO]: Preparing spawn area: 23%
-[20:55:33] [Render thread/INFO]: Preparing spawn area: 24%
-[20:55:34] [Render thread/INFO]: Preparing spawn area: 28%
-[20:55:34] [Render thread/INFO]: Preparing spawn area: 31%
-[20:55:35] [Render thread/INFO]: Preparing spawn area: 35%
-[20:55:35] [Render thread/INFO]: Preparing spawn area: 39%
-[20:55:36] [Render thread/INFO]: Preparing spawn area: 42%
-[20:55:36] [Render thread/INFO]: Preparing spawn area: 46%
-[20:55:37] [Render thread/INFO]: Preparing spawn area: 49%
-[20:55:37] [Render thread/INFO]: Preparing spawn area: 54%
-[20:55:38] [Render thread/INFO]: Preparing spawn area: 57%
-[20:55:38] [Render thread/INFO]: Preparing spawn area: 59%
-[20:55:39] [Render thread/INFO]: Preparing spawn area: 64%
-[20:55:39] [Render thread/INFO]: Preparing spawn area: 68%
-[20:55:40] [Render thread/INFO]: Preparing spawn area: 71%
-[20:55:40] [Render thread/INFO]: Preparing spawn area: 75%
-[20:55:41] [Render thread/INFO]: Preparing spawn area: 79%
-[20:55:41] [Render thread/INFO]: Preparing spawn area: 83%
-[20:55:42] [Render thread/INFO]: Preparing spawn area: 86%
-[20:55:42] [Render thread/INFO]: Preparing spawn area: 89%
-[20:55:43] [Render thread/INFO]: Preparing spawn area: 92%
-[20:55:43] [Render thread/INFO]: Preparing spawn area: 96%
-[20:55:43] [Server thread/INFO]: Truly Modular will now go onto reload twice.
-[20:55:43] [Server thread/INFO]: This is done because for compat reasons and because forge sometimes breaks badly
-[20:55:43] [Server thread/INFO]: This can be turned off in Miapis config.json
-[20:55:43] [Render thread/INFO]: Time elapsed: 16717 ms
-[20:55:43] [Server thread/WARN]: ItemModule is null?
-[20:55:43] [Server thread/INFO]: Loaded 76 Synergies
-[20:55:43] [Server thread/INFO]: Loaded 1012 Skins
-[20:55:43] [Server thread/INFO]: Loaded 1 Injectors/Property Substitutors
-[20:55:43] [Server thread/INFO]: Loaded 154 Modules
-[20:55:43] [Server thread/INFO]: Found 53 Enchantments
-[20:55:43] [Server thread/INFO]: Loaded 58 Modular Converters
-[20:55:43] [Server thread/INFO]: Loaded 117 Materials
-[20:55:43] [Server thread/INFO]: We're on the server! Loaded 154 regular actions, 14 per-world actions, and 2 special handlers
-[20:55:44] [Server thread/INFO]: Changing view distance to 12, from 10
-[20:55:44] [Server thread/INFO]: Changing simulation distance to 12, from 0
-[20:55:44] [Server thread/INFO]: AngrySquid14[local:E:cbe0ce6c] logged in with entity id 223 at (10.5, 79.0, -57.5)
-[20:55:44] [Netty Local Client IO #0/INFO]: [do_a_barrel_roll] Received config from server
-[20:55:44] [Server thread/INFO]: AngrySquid14 joined the game
-[20:55:44] [Netty Server IO #1/INFO]: [do_a_barrel_roll] Client of AngrySquid14 accepted server config.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:not] which has same signature as ResourceKey[hexcasting:action / hexcasting:not], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:get_entity_height] which has same signature as ResourceKey[hexcasting:action / hexcasting:get_entity_height], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:raycast/axis] which has same signature as ResourceKey[hexcasting:action / hexcasting:raycast/axis], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:deconstruct] which has same signature as ResourceKey[hexcasting:action / hexcasting:deconstruct], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:const/vec/px] which has same signature as ResourceKey[hexcasting:action / hexcasting:const/vec/px], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:unappend] which has same signature as ResourceKey[hexcasting:action / hexcasting:unappend], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:zone_entity/animal] which has same signature as ResourceKey[hexcasting:action / hexcasting:zone_entity/animal], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:break_block] which has same signature as ResourceKey[hexcasting:action / hexcasting:break_block], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:colorize] which has same signature as ResourceKey[hexcasting:action / hexcasting:colorize], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:or] which has same signature as ResourceKey[hexcasting:action / hexcasting:or], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:over] which has same signature as ResourceKey[hexcasting:action / hexcasting:over], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:craft/cypher] which has same signature as ResourceKey[hexcasting:action / hexcasting:craft/cypher], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:get_entity/monster] which has same signature as ResourceKey[hexcasting:action / hexcasting:get_entity/monster], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:create_water] which has same signature as ResourceKey[hexcasting:action / hexcasting:create_water], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:index_of] which has same signature as ResourceKey[hexcasting:action / hexcasting:index_of], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:blink] which has same signature as ResourceKey[hexcasting:action / hexcasting:blink], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:entity_pos/foot] which has same signature as ResourceKey[hexcasting:action / hexcasting:entity_pos/foot], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:beep] which has same signature as ResourceKey[hexcasting:action / hexcasting:beep], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:get_entity] which has same signature as ResourceKey[hexcasting:action / hexcasting:get_entity], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:rotate_reverse] which has same signature as ResourceKey[hexcasting:action / hexcasting:rotate_reverse], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:const/false] which has same signature as ResourceKey[hexcasting:action / hexcasting:const/false], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:random] which has same signature as ResourceKey[hexcasting:action / hexcasting:random], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:eval/cc] which has same signature as ResourceKey[hexcasting:action / hexcasting:eval/cc], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:bonemeal] which has same signature as ResourceKey[hexcasting:action / hexcasting:bonemeal], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:const/true] which has same signature as ResourceKey[hexcasting:action / hexcasting:const/true], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:craft/trinket] which has same signature as ResourceKey[hexcasting:action / hexcasting:craft/trinket], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:less_eq] which has same signature as ResourceKey[hexcasting:action / hexcasting:less_eq], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:mul] which has same signature as ResourceKey[hexcasting:action / hexcasting:mul], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:const/vec/0] which has same signature as ResourceKey[hexcasting:action / hexcasting:const/vec/0], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:destroy_water] which has same signature as ResourceKey[hexcasting:action / hexcasting:destroy_water], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:tan] which has same signature as ResourceKey[hexcasting:action / hexcasting:tan], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:const/vec/nx] which has same signature as ResourceKey[hexcasting:action / hexcasting:const/vec/nx], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:modulo] which has same signature as ResourceKey[hexcasting:action / hexcasting:modulo], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:construct_vec] which has same signature as ResourceKey[hexcasting:action / hexcasting:construct_vec], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:remove_from] which has same signature as ResourceKey[hexcasting:action / hexcasting:remove_from], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:sub] which has same signature as ResourceKey[hexcasting:action / hexcasting:sub], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:const/double/pi] which has same signature as ResourceKey[hexcasting:action / hexcasting:const/double/pi], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:circle/impetus_pos] which has same signature as ResourceKey[hexcasting:action / hexcasting:circle/impetus_pos], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:halt] which has same signature as ResourceKey[hexcasting:action / hexcasting:halt], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:greater_eq] which has same signature as ResourceKey[hexcasting:action / hexcasting:greater_eq], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:read/entity] which has same signature as ResourceKey[hexcasting:action / hexcasting:read/entity], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:singleton] which has same signature as ResourceKey[hexcasting:action / hexcasting:singleton], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:less] which has same signature as ResourceKey[hexcasting:action / hexcasting:less], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:get_caster] which has same signature as ResourceKey[hexcasting:action / hexcasting:get_caster], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:write/entity] which has same signature as ResourceKey[hexcasting:action / hexcasting:write/entity], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:coerce_axial] which has same signature as ResourceKey[hexcasting:action / hexcasting:coerce_axial], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:stack_len] which has same signature as ResourceKey[hexcasting:action / hexcasting:stack_len], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:const/double/e] which has same signature as ResourceKey[hexcasting:action / hexcasting:const/double/e], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:get_entity/living] which has same signature as ResourceKey[hexcasting:action / hexcasting:get_entity/living], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:equals] which has same signature as ResourceKey[hexcasting:action / hexcasting:equals], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:readable/entity] which has same signature as ResourceKey[hexcasting:action / hexcasting:readable/entity], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:rotate] which has same signature as ResourceKey[hexcasting:action / hexcasting:rotate], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:conjure_light] which has same signature as ResourceKey[hexcasting:action / hexcasting:conjure_light], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:sentinel/get_pos] which has same signature as ResourceKey[hexcasting:action / hexcasting:sentinel/get_pos], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:xor] which has same signature as ResourceKey[hexcasting:action / hexcasting:xor], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:zone_entity] which has same signature as ResourceKey[hexcasting:action / hexcasting:zone_entity], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:write/local] which has same signature as ResourceKey[hexcasting:action / hexcasting:write/local], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:last_n_list] which has same signature as ResourceKey[hexcasting:action / hexcasting:last_n_list], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:zone_entity/not_animal] which has same signature as ResourceKey[hexcasting:action / hexcasting:zone_entity/not_animal], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:duplicate] which has same signature as ResourceKey[hexcasting:action / hexcasting:duplicate], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:zone_entity/not_item] which has same signature as ResourceKey[hexcasting:action / hexcasting:zone_entity/not_item], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:place_block] which has same signature as ResourceKey[hexcasting:action / hexcasting:place_block], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:greater] which has same signature as ResourceKey[hexcasting:action / hexcasting:greater], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:bool_coerce] which has same signature as ResourceKey[hexcasting:action / hexcasting:bool_coerce], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:raycast] which has same signature as ResourceKey[hexcasting:action / hexcasting:raycast], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:zone_entity/player] which has same signature as ResourceKey[hexcasting:action / hexcasting:zone_entity/player], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:get_entity/animal] which has same signature as ResourceKey[hexcasting:action / hexcasting:get_entity/animal], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:unique] which has same signature as ResourceKey[hexcasting:action / hexcasting:unique], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:replace] which has same signature as ResourceKey[hexcasting:action / hexcasting:replace], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:not_equals] which has same signature as ResourceKey[hexcasting:action / hexcasting:not_equals], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:deconstruct_vec] which has same signature as ResourceKey[hexcasting:action / hexcasting:deconstruct_vec], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:thanatos] which has same signature as ResourceKey[hexcasting:action / hexcasting:thanatos], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:erase] which has same signature as ResourceKey[hexcasting:action / hexcasting:erase], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:pow] which has same signature as ResourceKey[hexcasting:action / hexcasting:pow], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:circle/impetus_dir] which has same signature as ResourceKey[hexcasting:action / hexcasting:circle/impetus_dir], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:const/vec/py] which has same signature as ResourceKey[hexcasting:action / hexcasting:const/vec/py], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:entity_pos/eye] which has same signature as ResourceKey[hexcasting:action / hexcasting:entity_pos/eye], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:ceil] which has same signature as ResourceKey[hexcasting:action / hexcasting:ceil], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:potion/poison] which has same signature as ResourceKey[hexcasting:action / hexcasting:potion/poison], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:zone_entity/item] which has same signature as ResourceKey[hexcasting:action / hexcasting:zone_entity/item], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:const/null] which has same signature as ResourceKey[hexcasting:action / hexcasting:const/null], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:cos] which has same signature as ResourceKey[hexcasting:action / hexcasting:cos], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:read/local] which has same signature as ResourceKey[hexcasting:action / hexcasting:read/local], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:append] which has same signature as ResourceKey[hexcasting:action / hexcasting:append], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:print] which has same signature as ResourceKey[hexcasting:action / hexcasting:print], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:const/double/tau] which has same signature as ResourceKey[hexcasting:action / hexcasting:const/double/tau], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:writable/entity] which has same signature as ResourceKey[hexcasting:action / hexcasting:writable/entity], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:potion/weakness] which has same signature as ResourceKey[hexcasting:action / hexcasting:potion/weakness], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:const/vec/nz] which has same signature as ResourceKey[hexcasting:action / hexcasting:const/vec/nz], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:explode/fire] which has same signature as ResourceKey[hexcasting:action / hexcasting:explode/fire], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:const/vec/ny] which has same signature as ResourceKey[hexcasting:action / hexcasting:const/vec/ny], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:duplicate_n] which has same signature as ResourceKey[hexcasting:action / hexcasting:duplicate_n], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:get_entity_look] which has same signature as ResourceKey[hexcasting:action / hexcasting:get_entity_look], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:add] which has same signature as ResourceKey[hexcasting:action / hexcasting:add], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:2dup] which has same signature as ResourceKey[hexcasting:action / hexcasting:2dup], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:raycast/entity] which has same signature as ResourceKey[hexcasting:action / hexcasting:raycast/entity], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:zone_entity/living] which has same signature as ResourceKey[hexcasting:action / hexcasting:zone_entity/living], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:const/vec/pz] which has same signature as ResourceKey[hexcasting:action / hexcasting:const/vec/pz], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:explode] which has same signature as ResourceKey[hexcasting:action / hexcasting:explode], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:fisherman/copy] which has same signature as ResourceKey[hexcasting:action / hexcasting:fisherman/copy], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:swizzle] which has same signature as ResourceKey[hexcasting:action / hexcasting:swizzle], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:sentinel/destroy] which has same signature as ResourceKey[hexcasting:action / hexcasting:sentinel/destroy], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:if] which has same signature as ResourceKey[hexcasting:action / hexcasting:if], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:floor] which has same signature as ResourceKey[hexcasting:action / hexcasting:floor], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:akashic/read] which has same signature as ResourceKey[hexcasting:action / hexcasting:akashic/read], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:add_motion] which has same signature as ResourceKey[hexcasting:action / hexcasting:add_motion], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:circle/bounds/min] which has same signature as ResourceKey[hexcasting:action / hexcasting:circle/bounds/min], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:reverse] which has same signature as ResourceKey[hexcasting:action / hexcasting:reverse], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:conjure_block] which has same signature as ResourceKey[hexcasting:action / hexcasting:conjure_block], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:fisherman] which has same signature as ResourceKey[hexcasting:action / hexcasting:fisherman], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:abs] which has same signature as ResourceKey[hexcasting:action / hexcasting:abs], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:readable] which has same signature as ResourceKey[hexcasting:action / hexcasting:readable], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:cycle_variant] which has same signature as ResourceKey[hexcasting:action / hexcasting:cycle_variant], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:get_entity/item] which has same signature as ResourceKey[hexcasting:action / hexcasting:get_entity/item], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:potion/slowness] which has same signature as ResourceKey[hexcasting:action / hexcasting:potion/slowness], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:get_entity/player] which has same signature as ResourceKey[hexcasting:action / hexcasting:get_entity/player], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:div] which has same signature as ResourceKey[hexcasting:action / hexcasting:div], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:write] which has same signature as ResourceKey[hexcasting:action / hexcasting:write], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:eval] which has same signature as ResourceKey[hexcasting:action / hexcasting:eval], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:index] which has same signature as ResourceKey[hexcasting:action / hexcasting:index], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:writable] which has same signature as ResourceKey[hexcasting:action / hexcasting:writable], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:potion/levitation] which has same signature as ResourceKey[hexcasting:action / hexcasting:potion/levitation], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:arctan] which has same signature as ResourceKey[hexcasting:action / hexcasting:arctan], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:recharge] which has same signature as ResourceKey[hexcasting:action / hexcasting:recharge], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:construct] which has same signature as ResourceKey[hexcasting:action / hexcasting:construct], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:zone_entity/not_monster] which has same signature as ResourceKey[hexcasting:action / hexcasting:zone_entity/not_monster], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:swap] which has same signature as ResourceKey[hexcasting:action / hexcasting:swap], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:get_entity_velocity] which has same signature as ResourceKey[hexcasting:action / hexcasting:get_entity_velocity], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:and] which has same signature as ResourceKey[hexcasting:action / hexcasting:and], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:zone_entity/not_living] which has same signature as ResourceKey[hexcasting:action / hexcasting:zone_entity/not_living], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:extinguish] which has same signature as ResourceKey[hexcasting:action / hexcasting:extinguish], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:craft/artifact] which has same signature as ResourceKey[hexcasting:action / hexcasting:craft/artifact], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:empty_list] which has same signature as ResourceKey[hexcasting:action / hexcasting:empty_list], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:edify] which has same signature as ResourceKey[hexcasting:action / hexcasting:edify], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:sentinel/wayfind] which has same signature as ResourceKey[hexcasting:action / hexcasting:sentinel/wayfind], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:zone_entity/not_player] which has same signature as ResourceKey[hexcasting:action / hexcasting:zone_entity/not_player], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:ignite] which has same signature as ResourceKey[hexcasting:action / hexcasting:ignite], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:sin] which has same signature as ResourceKey[hexcasting:action / hexcasting:sin], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:tuck] which has same signature as ResourceKey[hexcasting:action / hexcasting:tuck], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:splat] which has same signature as ResourceKey[hexcasting:action / hexcasting:splat], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:flight/time] which has same signature as ResourceKey[hexcasting:action / hexcasting:flight/time], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:potion/wither] which has same signature as ResourceKey[hexcasting:action / hexcasting:potion/wither], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:logarithm] which has same signature as ResourceKey[hexcasting:action / hexcasting:logarithm], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:flight/range] which has same signature as ResourceKey[hexcasting:action / hexcasting:flight/range], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:sentinel/create] which has same signature as ResourceKey[hexcasting:action / hexcasting:sentinel/create], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:read] which has same signature as ResourceKey[hexcasting:action / hexcasting:read], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:akashic/write] which has same signature as ResourceKey[hexcasting:action / hexcasting:akashic/write], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:arccos] which has same signature as ResourceKey[hexcasting:action / hexcasting:arccos], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:zone_entity/monster] which has same signature as ResourceKey[hexcasting:action / hexcasting:zone_entity/monster], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:slice] which has same signature as ResourceKey[hexcasting:action / hexcasting:slice], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:arcsin] which has same signature as ResourceKey[hexcasting:action / hexcasting:arcsin], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:circle/bounds/max] which has same signature as ResourceKey[hexcasting:action / hexcasting:circle/bounds/max], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:for_each] which has same signature as ResourceKey[hexcasting:action / hexcasting:for_each], overriding it.
-[20:55:44] [Render thread/WARN]: Inserted ResourceKey[hexcasting:action / hexcasting:arctan2] which has same signature as ResourceKey[hexcasting:action / hexcasting:arctan2], overriding it.
-[20:55:44] [Render thread/INFO]: We're on the client! Loaded 154 regular actions, 14 per-world actions, and 2 special handlers
-[20:55:44] [Render thread/WARN]: Failed to get file path of mod moonlight: /
-[20:55:44] [Render thread/WARN]: Failed to get file path of mod supplementaries: /
-[20:55:44] [Render thread/INFO]: Synced supplementaries-common.json configs
-[20:55:44] [Render thread/INFO]: Synced Flute Songs
-[20:55:44] [Render thread/INFO]: Synced Captured Mobs settings
-[20:55:44] [Render thread/INFO]: Synced Globe data
-[20:55:44] [Render thread/INFO]: Synced Hourglass data
-[20:55:45] [Render thread/WARN]: ItemModule is null?
-[20:55:45] [Render thread/INFO]: Loaded 76 Synergies
-[20:55:45] [Render thread/INFO]: Loaded 1012 Skins
-[20:55:45] [Render thread/INFO]: Loaded 1 Injectors/Property Substitutors
-[20:55:45] [Render thread/INFO]: Loaded 154 Modules
-[20:55:45] [Render thread/INFO]: Found 53 Enchantments
-[20:55:45] [Render thread/INFO]: Loaded 58 Modular Converters
-[20:55:45] [Render thread/INFO]: Loaded 117 Materials
-[20:55:45] [Render thread/INFO]: Client load took 963.1019 ms
-[20:55:45] [Render thread/INFO]: Created: 256x9x0 miapi:textures/atlas/materials.png-atlas
-[20:55:45] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
-[20:55:45] [Render thread/INFO]: Created material atlas with size 256x9
-[20:55:46] [Render thread/INFO]: [System] [CHAT] 
-[20:55:46] [Render thread/INFO]: [System] [CHAT] §7-------[§aCraftify§7]-------
-[20:55:46] [Render thread/INFO]: [System] [CHAT] §6This is your first time loading the mod.
-[20:55:46] [Render thread/INFO]: [System] [CHAT] §6To setup the mod run §9/craftify§6 and go to the Login category.
-[20:55:46] [Render thread/INFO]: [System] [CHAT] §6If you would like to support the creator you can
-[20:55:46] [Render thread/INFO]: [System] [CHAT] §6sub to §2ThatGravyBoat§6 on §cpatreon§6, link in the
-[20:55:46] [Render thread/INFO]: [System] [CHAT] §6config you will also get a small cosmetic if you do.
-[20:55:46] [Render thread/INFO]: [System] [CHAT] §7----------------------
-[20:55:46] [Render thread/INFO]: [System] [CHAT] 
-[20:55:46] [Render thread/WARN]: Time from main menu to in-game was 22.440836 seconds
-[20:55:46] [Render thread/WARN]: Total time to load game and open world was 54.042835 seconds
-[20:55:46] [Render thread/INFO]: Loaded 7 advancements
-[20:55:46] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 518.4 ?s
-[20:55:46] [Render thread/WARN]: Queried for unknown config flag: hexcasting:any_interop
-[20:55:46] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 691.7 ?s
-[20:55:46] [Render thread/WARN]: Queried for unknown config flag: hexcasting:any_interop
-[20:55:46] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 173.5 ?s
-[20:55:47] [Render thread/INFO]: Loaded 9 advancements
-[20:55:56] [Server thread/INFO]: Saving and pausing game...
-[20:55:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20:55:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20:55:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20:55:56] [Render thread/WARN]: Shader cabb2374eda405e66b897908637abd1da5deac52 could not find uniform named subpixel_amount in the specified shader program.
-[20:56:32] [Server thread/INFO]: Saving and pausing game...
-[20:56:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20:56:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20:56:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20:56:37] [Server thread/INFO]: Saving and pausing game...
-[20:56:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20:56:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20:56:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20:57:35] [Server thread/INFO]: Saving and pausing game...
-[20:57:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20:57:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20:57:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20:57:50] [Server thread/INFO]: Saving and pausing game...
-[20:57:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20:57:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20:57:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20:58:14] [Server thread/INFO]: AngrySquid14 has reached the goal [Grappling Hook!]
-[20:58:14] [Render thread/INFO]: [System] [CHAT] AngrySquid14 has reached the goal [Grappling Hook!]
-[20:58:14] [Render thread/INFO]: Loaded 16 advancements
-[20:58:24] [Worker-Main-10/INFO]: Instantiating Mojang DFU
-[20:58:25] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 185 milliseconds
-[20:59:53] [Server thread/INFO]: Saving and pausing game...
-[20:59:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20:59:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20:59:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:00:48] [Render thread/ERROR]: Deleting stream buffers: Invalid operation.
-[21:01:23] [Server thread/INFO]: AngrySquid14 has made the advancement [Physics 101]
-[21:01:23] [Render thread/INFO]: [System] [CHAT] AngrySquid14 has made the advancement [Physics 101]
-[21:01:23] [Render thread/INFO]: Loaded 16 advancements
-[21:01:35] [Render thread/INFO]: Loaded 25 advancements
-[21:02:17] [Server thread/INFO]: Saving and pausing game...
-[21:02:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:02:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:02:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:02:36] [Server thread/INFO]: AngrySquid14 has made the advancement [Thinking With Fall Damage]
-[21:02:36] [Render thread/INFO]: [System] [CHAT] AngrySquid14 has made the advancement [Thinking With Fall Damage]
-[21:02:36] [Render thread/INFO]: Loaded 25 advancements
-[21:03:26] [Server thread/INFO]: AngrySquid14 has made the advancement [Good Work, Boots!]
-[21:03:26] [Render thread/INFO]: [System] [CHAT] AngrySquid14 has made the advancement [Good Work, Boots!]
-[21:03:26] [Render thread/INFO]: Loaded 25 advancements
-[21:04:33] [pool-9-thread-1/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains]] from pos class_2338{x=373, y=70, z=-485}
-[21:04:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
-[21:04:50] [Server thread/INFO]: Saving and pausing game...
-[21:04:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:04:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:04:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:04:52] [Server thread/INFO]: AngrySquid14 lost connection: Disconnected
-[21:04:52] [Server thread/INFO]: AngrySquid14 left the game
-[21:04:52] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[21:04:52] [Server thread/INFO]: Stopping server
-[21:04:52] [Server thread/INFO]: Saving players
-[21:04:52] [Server thread/INFO]: Saving worlds
-[21:04:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:04:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:04:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:04:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[21:04:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:04:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:04:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:04:55] [Render thread/INFO]: Stopping!
+[17:38:07] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[17:38:07] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[17:38:07] [Render thread/WARN]: Missing sound for event: supplementaries:item.wrench.hit
+[17:38:07] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (High Definition Audio Device)
+[17:38:07] [Render thread/INFO]: Sound engine started
+[17:38:07] [Render thread/INFO]: Created: 2048x2048x0 minecraft:textures/atlas/blocks.png-atlas
+[17:38:07] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[17:38:07] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[17:38:07] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[17:38:07] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[17:38:07] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[17:38:07] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[17:38:07] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[17:38:07] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[17:38:07] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[17:38:07] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[17:38:07] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[17:38:07] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[17:38:07] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[17:38:07] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17:38:07] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[17:38:07] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[17:38:07] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[17:38:08] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[17:38:08] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[17:38:08] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[17:38:08] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[17:38:08] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[17:38:08] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[17:38:08] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[17:38:08] [Render thread/INFO]: Created: 256x256x0 moonlight:textures/atlas/map_markers.png-atlas
+[17:38:08] [Render thread/INFO]: Cleared non-static resources for pack moonlight:mods_dynamic_assets in: 0 ms
+[17:38:08] [Render thread/INFO]: BookContentResourceListenerLoader preloaded 90 jsons
+[17:38:10] [Render thread/WARN]: Game took 27.876 seconds to start
+[17:38:50] [Render thread/ERROR]: Can't ping 10.0.0.177: Timed out
+[18:16:12] [Render thread/INFO]: Stopping!

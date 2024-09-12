@@ -72,10 +72,10 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true
@@ -118,7 +118,38 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_Skip Forward:key.keyboard.unknown
+key_Skip Previous:key.keyboard.unknown
+key_Toggle Playing:key.keyboard.unknown
+key_Toggle Craftify HUD:key.keyboard.unknown
+key_key.do_a_barrel_roll.toggle_enabled:key.keyboard.i
+key_key.do_a_barrel_roll.toggle_thrust:key.keyboard.unknown
+key_key.do_a_barrel_roll.open_config:key.keyboard.unknown
+key_key.do_a_barrel_roll.pitch_up:key.keyboard.unknown
+key_key.do_a_barrel_roll.pitch_down:key.keyboard.unknown
+key_key.do_a_barrel_roll.yaw_left:key.keyboard.a
+key_key.do_a_barrel_roll.yaw_right:key.keyboard.d
+key_key.do_a_barrel_roll.roll_left:key.keyboard.unknown
+key_key.do_a_barrel_roll.roll_right:key.keyboard.unknown
+key_key.do_a_barrel_roll.thrust_forward:key.keyboard.w
+key_key.do_a_barrel_roll.thrust_backward:key.keyboard.unknown
+key_key.boththrow.desc:key.mouse.right
+key_key.leftthrow.desc:key.keyboard.unknown
+key_key.rightthrow.desc:key.keyboard.unknown
+key_key.motoronoff.desc:key.keyboard.left.shift
+key_key.jumpanddetach.desc:key.keyboard.space
+key_key.slow.desc:key.keyboard.left.shift
+key_key.climb.desc:key.keyboard.left.shift
+key_key.climbup.desc:key.keyboard.unknown
+key_key.climbdown.desc:key.keyboard.unknown
+key_key.enderlaunch.desc:key.mouse.left
+key_key.rocket.desc:key.mouse.left
+key_key.slide.desc:key.keyboard.left.shift
+key_keybind.invmove.toggleMove:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.unknown
+key_supplementaries.keybind.quiver:key.keyboard.v
+key_key.niftycarts.action:key.keyboard.r
+key_key.niftycarts.slow:key.keyboard.z
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
