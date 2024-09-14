@@ -21,8 +21,8 @@
 	render_type = 2
 
 [login]
-	refresh_token = "AQAKvDwklnZbuDwWC1b1fTaTLsEkoZTyh0cJ-bhHHsNcLAv-mvR71emQ-yb90e8Y0heRxyHH35C-oTI0c3AJtYQV9RZphUFwgmgdXJYZijEWajh_g4I8_Dxri0k8ucHYYeg"
-	spotify_login_token = ""
+	refresh_token = "AQC69F4Mq6mI6AGXBeY3AqY4zCQ6kFcN39T4c_HZjsGfNPhRMyurB_lBEAS3irAo-H-xN18axxxdMFMUNfG0YQbda5WIcaToAHft-IhhwBvCod-OVw6XD23Z0hvJLu3q-Ds"
+	spotify_login_token = "BQADKjv2qeWRIkv8WIs_Yxe7NqPbF6BLiqGwts7yTPfEq1GHxULzR0n8WEbPZrpSDmj7IsyCrtwrf5rAEKN58zrV_4ppMZmGKQNggYzaXBmiJnBfIzfHuLPBDTQN6H2ElDxqo39UTRYM7xJ24AUEKqSPAPSGOvY_JyLYgFHN53Jbif2LPpM7g-FafJs2QmZ2x4hU2htGy0tOKO2lsTkLoRQ"
 	ytmd_token = ""
 	service_port = 8880
 

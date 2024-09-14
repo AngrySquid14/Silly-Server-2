@@ -5,7 +5,10 @@
     "hexcasting:thehexbook": {
       "viewedEntries": [
         "hexcasting:items/staff",
-        "hexcasting:patterns/spells/flight"
+        "hexcasting:patterns/spells/flight",
+        "hexcasting:patterns/great_spells/dimension",
+        "hexcasting:greatwork/fanciful_staves",
+        "hexcasting:greatwork/quenching_allays"
       ],
       "bookmarks": [],
       "completedManualQuests": []
