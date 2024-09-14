@@ -5,7 +5,7 @@
 	first_time = false
 	mod_mode = -1
 	notification_album_art_location = 1
-	music_service = "spotify"
+	music_service = ""
 	announcement_message = "&aCraftify > &7Now Playing: &b${song} by ${artists}"
 
 [servers]
@@ -22,7 +22,6 @@
 
 [login]
 	refresh_token = "AQC69F4Mq6mI6AGXBeY3AqY4zCQ6kFcN39T4c_HZjsGfNPhRMyurB_lBEAS3irAo-H-xN18axxxdMFMUNfG0YQbda5WIcaToAHft-IhhwBvCod-OVw6XD23Z0hvJLu3q-Ds"
-	spotify_login_token = "BQADKjv2qeWRIkv8WIs_Yxe7NqPbF6BLiqGwts7yTPfEq1GHxULzR0n8WEbPZrpSDmj7IsyCrtwrf5rAEKN58zrV_4ppMZmGKQNggYzaXBmiJnBfIzfHuLPBDTQN6H2ElDxqo39UTRYM7xJ24AUEKqSPAPSGOvY_JyLYgFHN53Jbif2LPpM7g-FafJs2QmZ2x4hU2htGy0tOKO2lsTkLoRQ"
 	ytmd_token = ""
 	service_port = 8880
 
